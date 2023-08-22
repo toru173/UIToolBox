@@ -24,7 +24,7 @@ switch (CommandLine.arguments[0] as NSString).lastPathComponent {
 
 func alert(arguments: [String]) {
 
-    let helpText = "Usage: alert \"Message Text\" \"Infomative Text\" [ --show-cancel ]"
+    let helpText = "Usage: alert \"Message Text\" \"Informative Text\" [ --show-cancel ]"
 
     var showCancel = false
 
